@@ -1,6 +1,7 @@
 def ask_age
   puts "Enter your age"
   age = gets.to_i
+  return age
 end
 
 def ticket_price(ask_age)
